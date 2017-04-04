@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+  background: #E1E1E1;
+  font-family: 'Quicksand', sans-serif;
+  color: #7428F1;
+}
+
+.App {
+  background: white;
+  padding-bottom: 10px;
+  width: 400px;
+  margin: 50px auto;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+}
+
+ul {
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+.item-delete {
+  float: left;
+  padding-left: 10px;
+  padding-right: 15px;
+  color: #868989;
+}
+
+.item-name {
+  overflow: hidden;
+}
+
+hr.item-break {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+form {
+  padding-left: 5px;
+}
+
+input {
+  outline: none;
+  height: 30px;
+  width: 320px;
+  margin-left: 10px;
+  font-size: 1.2em;
+  color: #7428F1;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #8C8B8B;
+}
+
+button.submit {
+  height: 25px;
+  width: 35px;
+  background: #7428F1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+div#head {
+  text-align: left;
+  font-size: 1.5em;
+  background: #7428F1;
+  padding-top: 10px;
+  color: white;
+
+}
+
+span.date {
+  float: right;
+  margin-top: 4px;
+  font-size: 0.75em;
+  margin-right: 20px;
+}
+
+span.title {
+  margin-left: 20px;
+
+}
+
+hr.title-break {
+  border-top: 1px solid #8c8b8b;
+}
