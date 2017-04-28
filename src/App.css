@@ -36,6 +36,7 @@ li {
   padding-left: 10px;
   padding-right: 15px;
   color: #868989;
+  cursor: pointer;
 }
 
 .item-name {
@@ -102,4 +103,11 @@ span.title {
 
 hr.title-break {
   border-top: 1px solid #8c8b8b;
+}
+
+div#footer {
+  position: fixed;
+  bottom: 10px;
+  left: 43%;
+  width: 100%;
 }

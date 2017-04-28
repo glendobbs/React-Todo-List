@@ -42,6 +42,9 @@ class App extends Component {
       <div className="App">
         <ItemList items={this.state.items} onDelete={this.onDelete} />
         <InputForm input={this.state.input} onChange={this.onChange} onSubmit={this.onSubmit}/>
+        <div id="footer">
+          Created by A G Dobbs
+        </div>
       </div>
     );
   }
